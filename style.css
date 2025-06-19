@@ -1,13 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
-    border: 1px solid black;
 }
-
-/* hexadecimal: #004170; Azul 
-: #FFFFFF; Blanco
- #DA291C; Rojo 
- #ceab5d; Dorado*/
 
 header{ 
     background-color: #082c46;
@@ -33,15 +27,13 @@ header nav ul li a{
     margin-left: 15%;
     margin-top: 1%;
     padding: 0.5%;
-    border-radius: 15%;
-    box-shadow: 3px,3px,3px rgb(187, 19, 19);
-    
+    border-radius: 15%;    
 }
 
 main{
     clear: both;
     background-color: #004170;
-    padding-bottom: 20%;
+    padding-bottom: 22%;
 }
 
 main h1{
@@ -49,7 +41,12 @@ main h1{
     margin-bottom: 1%;
     width: 20%;
     margin-left: 40%;
-    margin-top: 1%;
+    padding-top: 3%;
+    color:#bea03e ;
+}
+
+main article{
+    border: solid beige 1px;
 }
 
 main article img{
@@ -59,13 +56,14 @@ main article img{
     margin-top: 2%;
     margin-bottom: 2%;
     float: left;
+    border: solid beige 2px;
 }
 
 main article h2{
     float: right;
     width: 50%;
     margin-right: 10%;
-    margin-top: 2%;
+    margin-top: 7%;
     color: #eff5e3;
 }
 
@@ -76,7 +74,6 @@ main article h3{
     margin-top: 1%;
     color: #c0c5b7;
 }
-
 
 .BENE{
     clear: both;
@@ -92,6 +89,8 @@ main article h3{
     width: 30%;
     height: 10%;
     margin-left: 2.4%;
+    background-color: #082c46;
+    padding: 5px;
 }
 
 .BENE div img{
@@ -99,6 +98,12 @@ main article h3{
 }
 
 .BENE div h4{
+    color: #eff5e3;
+    text-align: center;
+}
+
+.BENE div p{
+    
     color: #eff5e3;
     text-align: center;
 }
@@ -113,16 +118,41 @@ main article h3{
 
 .PB div{
     float: left;
-    width: 25%;
-    margin-left: 16%;
-    
+    width: 35%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    border: solid beige 2px;
 }
 
 .PB div img{
-    width: 100%;
+    width: 40%;
+    float: left;
+}
+
+.PB div h4{
+    margin-top: 5%;
+    color: #eff5e3;
 }
 
 footer{
     clear: both;
+    background-color:#082c46;
+    padding-bottom: 2%;
+}
+
+footer ul{
+    width: 4%;
+    float: left;
+    margin-top: 0.2%;
+}
+
+footer ul li a{
+    color: #eff5e3;
+}
+
+.redes img{
+    width: 2%;
+    float: right;
+    
 }
 

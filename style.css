@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+}
+
+/* hexadecimal: #004170; Azul 
+: #FFFFFF; Blanco
+ #DA291C; Rojo 
+ #ceab5d; Dorado*/
+
+header{ 
+    background-color: #082c46;
+    padding-bottom: 4%;
+}
+
+header img{
+    height: 100%;
+    width: 7%;
+    float: right;
+}
+
+header nav ul{
+    list-style: none;
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #004170;
+    background-color: #eff5e3;
+    float: left;
+    margin-left: 15%;
+    margin-top: 1%;
+    padding: 0.5%;
+    border-radius: 15%;
+    box-shadow: 3px,3px,3px rgb(187, 19, 19);
+    
+}
+
+main{
+    clear: both;
+    background-color: #004170;
+    padding-bottom: 20%;
+}
+
+main h1{
+    text-align: center;
+    margin-bottom: 1%;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+main article img{
+    width: 30%;
+    height: 100%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    float: left;
+}
+
+main article h2{
+    float: right;
+    width: 50%;
+    margin-right: 10%;
+    margin-top: 2%;
+    color: #eff5e3;
+}
+
+main article h3{
+    float: right;
+    width: 50%;
+    margin-right: 10%;
+    margin-top: 1%;
+    color: #c0c5b7;
+}
+
+
+.BENE{
+    clear: both;
+}
+
+.BENE h1{
+    color:#eff5e3;
+}
+
+.BENE div
+{
+    float: left;
+    width: 30%;
+    height: 10%;
+    margin-left: 2.4%;
+}
+
+.BENE div img{
+    width: 100%;
+}
+
+.BENE div h4{
+    color: #eff5e3;
+    text-align: center;
+}
+
+
+.PB h1{
+    margin-top: 30%;
+    color: #eff5e3;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.PB div{
+    float: left;
+    width: 25%;
+    margin-left: 16%;
+    
+}
+
+.PB div img{
+    width: 100%;
+}
+
+footer{
+    clear: both;
+}
+
